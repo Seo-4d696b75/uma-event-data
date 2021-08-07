@@ -3,10 +3,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '*.json'
-      - 'icon/*'
-      - '.github/*'
 jobs:
   test:
     runs-on: ubuntu-latest
