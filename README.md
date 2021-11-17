@@ -52,11 +52,11 @@ Supporter {
 ```
 
 ## How to update & publish
-
+### 手動
 1. データ更新
-   - `event.json`: イベント選択肢
-   - `icon.json`: 育成ウマ娘・サポートカード一覧
-2. 画像データ更新  
-   `$ python icon/download.py`
-3. push  
+   `$ ruby update.rb`
+2. push  
    GithubActions が実行されて `data.json, info.json`を更新
+
+### 定期実行
+GithubActions で毎時0:00 に実行
