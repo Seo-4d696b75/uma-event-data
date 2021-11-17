@@ -1,8 +1,11 @@
-name: auto-update
+name: auto-release
 on:
   push:
     branches:
       - main
+    paths:
+      - event.json
+      - icon.json
 jobs:
   test:
     runs-on: ubuntu-latest
