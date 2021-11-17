@@ -11,6 +11,15 @@ def get_http(uri)
   end
 end
 
+def get_imgs(list)
+  list.each do |d|
+    name = d["i"]
+    uri = URI.parse("https://img.gamewith.jp/article_tools/uma-musume/gacha/#{name}")
+    img = get_http(uri)
+    File.open("./icon/#{name}", "wb") { |f| f.write(img) }
+  end
+end
+
 def read_json_key_value_pair(str)
   m = /\A\s*'(?<key>[^']+)'\s*:/.match(str)
   return nil if !m
@@ -68,19 +77,22 @@ def convert_json(str)
   read_json_element(str.force_encoding("utf-8"))[0]
 end
 
-def convert_quote(str)
-  str = str.gsub('"', '\\"')
-  str = str.gsub('\'', '"')
-  str = str.gsub(/\},\]\},/, "}]},")
-  str = str.sub(/,\s*\]\s*\z/, "]")
-  return str
-end
-
 # update data.json
 res = get_http(URI.parse("https://gamewith-tool.s3-ap-northeast-1.amazonaws.com/uma-musume/female_event_datas.js"))
 m = /window.eventDatas\[.+?\]\s?=\s?(?<events>\[.+\]);/m.match(res)
-#data = convert_json(m[:events])
-data = JSON.parse(convert_quote(m[:events]))
-File.open("hoge.json", "w") do |f|
+data = convert_json(m[:events])
+File.open("event.2.json", "w") do |f|
   f.write(JSON.pretty_generate(data))
 end
+
+# update icon.json
+res = get_http(URI.parse("https://gamewith-tool.s3-ap-northeast-1.amazonaws.com/uma-musume/common_event_datas.js"))
+m = /const imageDatas\s*=\s*(?<data>\{.+\};)/m.match(res)
+data = convert_json(m[:data])
+File.open("icon.2.json", "w") do |f|
+  f.write(JSON.pretty_generate(data))
+end
+
+# update icon/*.png
+get_imgs(data["support"])
+get_imgs(data["chara"])
