@@ -81,7 +81,7 @@ end
 res = get_http(URI.parse("https://gamewith-tool.s3-ap-northeast-1.amazonaws.com/uma-musume/female_event_datas.js"))
 m = /window.eventDatas\[.+?\]\s?=\s?(?<events>\[.+\]);/m.match(res)
 data = convert_json(m[:events])
-File.open("event.2.json", "w") do |f|
+File.open("event.json", "w") do |f|
   f.write(JSON.pretty_generate(data))
 end
 
@@ -89,7 +89,7 @@ end
 res = get_http(URI.parse("https://gamewith-tool.s3-ap-northeast-1.amazonaws.com/uma-musume/common_event_datas.js"))
 m = /const imageDatas\s*=\s*(?<data>\{.+\};)/m.match(res)
 data = convert_json(m[:data])
-File.open("icon.2.json", "w") do |f|
+File.open("icon.json", "w") do |f|
   f.write(JSON.pretty_generate(data))
 end
 
