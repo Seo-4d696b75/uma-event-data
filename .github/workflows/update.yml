@@ -1,9 +1,12 @@
-name: auto-update-schedule
+name: auto-update
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 15 * * *' # JST+0900 で毎時0:00に実行
 jobs:
-  test:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code
@@ -20,6 +23,19 @@ jobs:
         run: |
           git add -N . # 新規ファイルを含める
           echo "::set-output name=count::$(git diff --name-only | wc -l)"
+      - name: run test
+        if: steps.diff.outputs.count > 0
+        run: |
+          echo "::add-matcher::.github/problem-matcher.json"
+          gem install minitest
+          ruby test.rb
+      - name: commit update
+        if: steps.diff.outputs.count > 0
+        run: |
+          git config --global user.email "s.kaoru509@gmail.com"
+          git config --global user.name "Seo-4d696b75"
+          git add .
+          git commit -m "[update] event data"
       - name: release
         if: steps.diff.outputs.count > 0
         run: ruby release.rb
@@ -28,8 +44,6 @@ jobs:
         env:
           REPO: https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git
         run: |
-          git config --global user.email "s.kaoru509@gmail.com"
-          git config --global user.name "Seo-4d696b75"
           git add .
-          git commit -m '[update] release'
+          git commit -m "[release] latest data"
           git push ${REPO} main
