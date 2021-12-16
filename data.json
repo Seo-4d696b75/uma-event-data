@@ -21330,7 +21330,7 @@
     },
     {
       "title": "Who Will Escort Me?",
-      "title_kana": "_てんのうしょうあき_えりざべすじょうおうはい_ありまきねん",
+      "title_kana": "whowillescortme_てんのうしょうあき_えりざべすじょうおうはい_ありまきねん",
       "owner": "ファインモーション",
       "choices": [
         {
@@ -21492,12 +21492,12 @@
     },
     {
       "title": "Love Ramen",
-      "title_kana": "_ちゃーしゅーめん_あぶらそば_たんたんめん",
+      "title_kana": "loveramen_ちゃーしゅーめん_あぶらそば_たんたんめん",
       "owner": "ファインモーション",
       "choices": [
         {
           "name": "チャーシュー麺",
-          "message": "体力+30[br]スキルPt+15"
+          "message": "成功時：[br]体力+30[br]スキルPt+15<hr>失敗時：[br]体力+30[br]スピード-10[br]スキルPt+5[br]『太り気味』になる"
         },
         {
           "name": "油そば",
