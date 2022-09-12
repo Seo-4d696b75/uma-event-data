@@ -29,8 +29,9 @@ owner = read_json('src/icon.json')
 owner['support'].map! do |s|
   {
     'name' => s['n'],
-    'type' => s['l'],
-    'icon' => s['i']
+    'icon' => s['i'],
+    'type' => s['l'][0..1],
+    'rearity' => s['l'].match(/S{0,2}R/)[0]
   }
 end
 owner['chara'].map! do |c|
