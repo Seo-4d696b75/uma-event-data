@@ -12,20 +12,6 @@ def read_json(path)
   JSON.parse(str)
 end
 
-event = read_json('src/event.json').map do |e|
-  {
-    'title' => e['e'],
-    'title_kana' => e['k'],
-    'owner' => e['n'],
-    'choices' => e['choices'].map do |c|
-      {
-        'name' => c['n'],
-        'message' => c['t']
-      }
-    end
-  }
-end
-
 def assert(condition, message='')
   return if condition
 
@@ -90,6 +76,51 @@ owner['support'].map! do |s|
   }
 end
 assert old_owner['support'].length.zero?, "support not found #{JSON.dump(old_owner['support'])}"
+
+scenario = ['共通', 'URA', 'アオハル', 'クライマックス', 'グランドライブ']
+event = read_json('src/event.json').map do |e|
+  name = e['n']
+  cls = e['c']
+  owner_id = nil
+  owner_type = nil
+  if scenario.include?(name)
+    # イベント所有者なし
+    puts "scenario #{name}:#{e['e']}"
+    owner_type = 'scenario'
+  elsif cls == 'c'
+    # 育成キャラ
+    o = owner['chara'].find { |c| c['name'] == name }
+    owner_type = 'chara'
+    owner_id = o['id']
+  elsif cls == 's'
+    # サポートカード
+    type = e['l'][0..1]
+    rearity = e['l'].match(/S{0,2}R/)[0]
+    o = owner['support'].find do |s|
+      s['name'] == name && s['type'] == type && s['rearity'] == rearity
+    end
+    owner_type = 'support'
+    owner_id = o['id']
+  else
+    assert false, "no owner found #{JSON.dump(e)}"
+  end
+  o = {
+    'type' => owner_type,
+    'name' => name
+  }
+  o['id'] = owner_id if owner_id
+  {
+    'title' => e['e'],
+    'title_kana' => e['k'],
+    'owner' => o,
+    'choices' => e['choices'].map do |c|
+      {
+        'name' => c['n'],
+        'message' => c['t']
+      }
+    end
+  }
+end
 
 data = {
   'event' => event,
