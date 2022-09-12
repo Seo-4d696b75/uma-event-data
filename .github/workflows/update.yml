@@ -17,7 +17,7 @@ jobs:
         with:
           ruby-version: '2.6'
       - name: update
-        run: ruby update.rb
+        run: ruby src/update.rb
       - name: check diff
         id: diff
         run: |
@@ -28,7 +28,7 @@ jobs:
         run: |
           echo "::add-matcher::.github/problem-matcher.json"
           gem install minitest
-          ruby test.rb
+          ruby src/test.rb
       - name: commit update # 更新差分を一旦コミット
         if: steps.diff.outputs.count > 0
         run: |
@@ -38,7 +38,7 @@ jobs:
           git commit -m "[update] event data"
       - name: release # 公開するデータフォーマットに変換
         if: steps.diff.outputs.count > 0
-        run: ruby release.rb
+        run: ruby src/release.rb
       - name: commit and push
         if: steps.diff.outputs.count > 0
         env:
