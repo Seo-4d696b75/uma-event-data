@@ -26,14 +26,7 @@ event = read_json('src/event.json').map do |e|
 end
 
 owner = read_json('src/icon.json')
-owner['support'].map! do |s|
-  {
-    'name' => s['n'],
-    'icon' => s['i'],
-    'type' => s['l'][0..1],
-    'rearity' => s['l'].match(/S{0,2}R/)[0]
-  }
-end
+idx = 0
 owner['chara'].map! do |c|
   i = c['i']
   list = [i]
@@ -41,8 +34,18 @@ owner['chara'].map! do |c|
   list << second if File.exist?("icon/#{second}")
 
   {
+    'id' => (idx += 1),
     'name' => c['n'],
     'icon' => list
+  }
+end
+owner['support'].map! do |s|
+  {
+    'id' => (idx += 1),
+    'name' => s['n'],
+    'icon' => s['i'],
+    'type' => s['l'][0..1],
+    'rearity' => s['l'].match(/S{0,2}R/)[0]
   }
 end
 
