@@ -55,9 +55,9 @@ assert old_owner['chara'].length.zero?, "chara not found #{JSON.dump(old_owner['
 owner['support'].map! do |s|
   name = s['n']
   type = s['l'][0..1]
-  rearity = s['l'].match(/S{0,2}R/)[0]
+  rarity = s['l'].match(/S{0,2}R/)[0]
   idx = old_owner['support'].index do |e|
-    e['name'] == name && e['type'] == type && e['rearity'] == rearity
+    e['name'] == name && e['type'] == type && e['rarity'] == rarity
   end
   id = max_id + 1
   if idx
@@ -72,7 +72,7 @@ owner['support'].map! do |s|
     'name' => name,
     'icon' => s['i'],
     'type' => type,
-    'rearity' => rearity
+    'rarity' => rarity
   }
 end
 assert old_owner['support'].length.zero?, "support not found #{JSON.dump(old_owner['support'])}"
@@ -95,9 +95,9 @@ event = read_json('src/event.json').map do |e|
   elsif cls == 's'
     # サポートカード
     type = e['l'][0..1]
-    rearity = e['l'].match(/S{0,2}R/)[0]
+    rarity = e['l'].match(/S{0,2}R/)[0]
     o = owner['support'].find do |s|
-      s['name'] == name && s['type'] == type && s['rearity'] == rearity
+      s['name'] == name && s['type'] == type && s['rarity'] == rarity
     end
     owner_type = 'support'
     owner_id = o['id']

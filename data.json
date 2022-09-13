@@ -56139,1666 +56139,1666 @@
         "name": "スペシャルウィーク",
         "icon": "sp_1.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 97,
         "name": "サイレンススズカ",
         "icon": "sp_2.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 98,
         "name": "トウカイテイオー",
         "icon": "sp_3.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 99,
         "name": "ゴールドシップ",
         "icon": "sp_4.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 100,
         "name": "ウオッカ",
         "icon": "sp_5.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 101,
         "name": "グラスワンダー",
         "icon": "sp_6.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 102,
         "name": "エルコンドルパサー",
         "icon": "sp_7.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 103,
         "name": "セイウンスカイ",
         "icon": "sp_8.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 104,
         "name": "タマモクロス",
         "icon": "sp_9.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 105,
         "name": "ファインモーション",
         "icon": "sp_10.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 106,
         "name": "アイネスフウジン",
         "icon": "sp_11.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 107,
         "name": "ウイニングチケット",
         "icon": "sp_12.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 108,
         "name": "エアシャカール",
         "icon": "sp_13.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 109,
         "name": "ゴールドシチー",
         "icon": "sp_14.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 110,
         "name": "サクラバクシンオー",
         "icon": "sp_15.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 111,
         "name": "スーパークリーク",
         "icon": "sp_16.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 112,
         "name": "スマートファルコン",
         "icon": "sp_17.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 113,
         "name": "ニシノフラワー",
         "icon": "sp_18.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 114,
         "name": "ビコーペガサス",
         "icon": "sp_19.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 115,
         "name": "駿川たづな",
         "icon": "sp_20.png",
         "type": "友人",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 116,
         "name": "フジキセキ",
         "icon": "sp_21.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 117,
         "name": "ダイワスカーレット",
         "icon": "sp_22.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 118,
         "name": "ヒシアマゾン",
         "icon": "sp_23.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 119,
         "name": "エアグルーヴ",
         "icon": "sp_24.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 120,
         "name": "アグネスデジタル",
         "icon": "sp_25.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 121,
         "name": "ビワハヤヒデ",
         "icon": "sp_26.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 122,
         "name": "マヤノトップガン",
         "icon": "sp_27.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 123,
         "name": "マンハッタンカフェ",
         "icon": "sp_28.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 124,
         "name": "ミホノブルボン",
         "icon": "sp_29.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 125,
         "name": "メジロライアン",
         "icon": "sp_30.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 126,
         "name": "ユキノビジン",
         "icon": "sp_31.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 127,
         "name": "アグネスタキオン",
         "icon": "sp_32.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 128,
         "name": "エイシンフラッシュ",
         "icon": "sp_33.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 129,
         "name": "ナリタタイシン",
         "icon": "sp_34.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 130,
         "name": "マーベラスサンデー",
         "icon": "sp_35.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 131,
         "name": "マチカネフクキタル",
         "icon": "sp_36.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 132,
         "name": "メイショウドトウ",
         "icon": "sp_37.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 133,
         "name": "メジロドーベル",
         "icon": "sp_38.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 134,
         "name": "ナイスネイチャ",
         "icon": "sp_39.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 135,
         "name": "キングヘイロー",
         "icon": "sp_40.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 136,
         "name": "桐生院葵",
         "icon": "sp_41.png",
         "type": "友人",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 137,
         "name": "スペシャルウィーク",
         "icon": "sp_42.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 138,
         "name": "サイレンススズカ",
         "icon": "sp_43.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 139,
         "name": "トウカイテイオー",
         "icon": "sp_44.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 140,
         "name": "マルゼンスキー",
         "icon": "sp_45.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 141,
         "name": "オグリキャップ",
         "icon": "sp_46.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 142,
         "name": "ゴールドシップ",
         "icon": "sp_47.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 143,
         "name": "ウオッカ",
         "icon": "sp_48.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 144,
         "name": "タイキシャトル",
         "icon": "sp_49.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 145,
         "name": "グラスワンダー",
         "icon": "sp_50.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 146,
         "name": "メジロマックイーン",
         "icon": "sp_51.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 147,
         "name": "エルコンドルパサー",
         "icon": "sp_52.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 148,
         "name": "テイエムオペラオー",
         "icon": "sp_53.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 149,
         "name": "シンボリルドルフ",
         "icon": "sp_54.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 150,
         "name": "セイウンスカイ",
         "icon": "sp_55.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 151,
         "name": "ライスシャワー",
         "icon": "sp_56.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 152,
         "name": "ウイニングチケット",
         "icon": "sp_57.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 153,
         "name": "ゴールドシチー",
         "icon": "sp_58.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 154,
         "name": "サクラバクシンオー",
         "icon": "sp_59.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 155,
         "name": "スーパークリーク",
         "icon": "sp_60.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 156,
         "name": "ハルウララ",
         "icon": "sp_61.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 157,
         "name": "駿川たづな",
         "icon": "sp_62.png",
         "type": "友人",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 158,
         "name": "桐生院葵",
         "icon": "sp_63.png",
         "type": "友人",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 159,
         "name": "ダイワスカーレット",
         "icon": "sp_64.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 160,
         "name": "ヒシアマゾン",
         "icon": "sp_65.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 161,
         "name": "エアグルーヴ",
         "icon": "sp_66.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 162,
         "name": "アグネスデジタル",
         "icon": "sp_67.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 163,
         "name": "タマモクロス",
         "icon": "sp_68.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 164,
         "name": "ファインモーション",
         "icon": "sp_69.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 165,
         "name": "ビワハヤヒデ",
         "icon": "sp_70.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 166,
         "name": "マヤノトップガン",
         "icon": "sp_71.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 167,
         "name": "マンハッタンカフェ",
         "icon": "sp_72.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 168,
         "name": "ミホノブルボン",
         "icon": "sp_73.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 169,
         "name": "メジロライアン",
         "icon": "sp_74.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 170,
         "name": "ユキノビジン",
         "icon": "sp_75.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 171,
         "name": "アイネスフウジン",
         "icon": "sp_76.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 172,
         "name": "アグネスタキオン",
         "icon": "sp_77.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 173,
         "name": "エアシャカール",
         "icon": "sp_78.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 174,
         "name": "エイシンフラッシュ",
         "icon": "sp_79.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 175,
         "name": "スマートファルコン",
         "icon": "sp_80.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 176,
         "name": "ナリタタイシン",
         "icon": "sp_81.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 177,
         "name": "ニシノフラワー",
         "icon": "sp_82.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 178,
         "name": "ビコーペガサス",
         "icon": "sp_83.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 179,
         "name": "マーベラスサンデー",
         "icon": "sp_84.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 180,
         "name": "マチカネフクキタル",
         "icon": "sp_85.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 181,
         "name": "メイショウドトウ",
         "icon": "sp_86.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 182,
         "name": "メジロドーベル",
         "icon": "sp_87.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 183,
         "name": "ナイスネイチャ",
         "icon": "sp_88.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 184,
         "name": "キングヘイロー",
         "icon": "sp_89.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 185,
         "name": "フジキセキ",
         "icon": "sp_90.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 186,
         "name": "ハルウララ",
         "icon": "sp_91.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 187,
         "name": "メジロマックイーン",
         "icon": "sp_92.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 188,
         "name": "ライスシャワー",
         "icon": "sp_93.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 189,
         "name": "オグリキャップ",
         "icon": "sp_94.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 190,
         "name": "スイープトウショウ",
         "icon": "sp_95.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 191,
         "name": "スイープトウショウ",
         "icon": "sp_96.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 192,
         "name": "スペシャルウィーク",
         "icon": "sp_97.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 193,
         "name": "ツインターボ",
         "icon": "sp_98.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 194,
         "name": "ダイタクヘリオス",
         "icon": "sp_99.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 195,
         "name": "ツインターボ",
         "icon": "sp_100.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 196,
         "name": "ダイタクヘリオス",
         "icon": "sp_101.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 197,
         "name": "メジロパーマー",
         "icon": "sp_102.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 198,
         "name": "イクノディクタス",
         "icon": "sp_103.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 199,
         "name": "メジロパーマー",
         "icon": "sp_104.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 200,
         "name": "イクノディクタス",
         "icon": "sp_105.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 201,
         "name": "マチカネタンホイザ",
         "icon": "sp_106.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 202,
         "name": "ナイスネイチャ",
         "icon": "sp_107.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 203,
         "name": "キタサンブラック",
         "icon": "sp_108.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 204,
         "name": "サトノダイヤモンド",
         "icon": "sp_109.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 205,
         "name": "キタサンブラック",
         "icon": "sp_110.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 206,
         "name": "サトノダイヤモンド",
         "icon": "sp_111.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 207,
         "name": "マチカネタンホイザ",
         "icon": "sp_112.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 208,
         "name": "ユキノビジン",
         "icon": "sp_113.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 209,
         "name": "ニシノフラワー",
         "icon": "sp_114.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 210,
         "name": "ウイニングチケット",
         "icon": "sp_115.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 211,
         "name": "ヤエノムテキ",
         "icon": "sp_116.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 212,
         "name": "ゼンノロブロイ",
         "icon": "sp_117.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 213,
         "name": "ヤエノムテキ",
         "icon": "sp_118.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 214,
         "name": "ゼンノロブロイ",
         "icon": "sp_119.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 215,
         "name": "サクラチヨノオー",
         "icon": "sp_120.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 216,
         "name": "シーキングザパール",
         "icon": "sp_121.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 217,
         "name": "サクラチヨノオー",
         "icon": "sp_122.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 218,
         "name": "シーキングザパール",
         "icon": "sp_123.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 219,
         "name": "トウカイテイオー",
         "icon": "sp_124.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 220,
         "name": "カワカミプリンセス",
         "icon": "sp_125.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 221,
         "name": "ヒシアケボノ",
         "icon": "sp_126.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 222,
         "name": "カワカミプリンセス",
         "icon": "sp_127.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 223,
         "name": "ヒシアケボノ",
         "icon": "sp_128.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 224,
         "name": "メジロドーベル",
         "icon": "sp_129.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 225,
         "name": "バンブーメモリー",
         "icon": "sp_130.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 226,
         "name": "シンコウウインディ",
         "icon": "sp_131.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 227,
         "name": "バンブーメモリー",
         "icon": "sp_132.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 228,
         "name": "シンコウウインディ",
         "icon": "sp_133.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 229,
         "name": "ミホノブルボン",
         "icon": "sp_134.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 230,
         "name": "セイウンスカイ",
         "icon": "sp_135.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 231,
         "name": "キングヘイロー",
         "icon": "sp_136.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 232,
         "name": "ゴールドシップ",
         "icon": "sp_137.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 233,
         "name": "ナリタブライアン",
         "icon": "sp_138.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 234,
         "name": "メジロライアン",
         "icon": "sp_139.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 235,
         "name": "メジロアルダン",
         "icon": "sp_140.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 236,
         "name": "メジロアルダン",
         "icon": "sp_141.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 237,
         "name": "ツインターボ",
         "icon": "sp_142.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 238,
         "name": "ナリタブライアン",
         "icon": "sp_143.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 239,
         "name": "スイープトウショウ",
         "icon": "sp_144.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 240,
         "name": "ウイニングチケット",
         "icon": "sp_145.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 241,
         "name": "ダイワスカーレット",
         "icon": "sp_146.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 242,
         "name": "ビワハヤヒデ",
         "icon": "sp_147.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 243,
         "name": "ナイスネイチャ",
         "icon": "sp_148.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 244,
         "name": "トーセンジョーダン",
         "icon": "sp_149.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 245,
         "name": "トーセンジョーダン",
         "icon": "sp_150.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 246,
         "name": "サイレンススズカ",
         "icon": "sp_151.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 247,
         "name": "ライスシャワー",
         "icon": "sp_152.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 248,
         "name": "樫本理子",
         "icon": "sp_153.png",
         "type": "友人",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 249,
         "name": "樫本理子",
         "icon": "sp_154.png",
         "type": "友人",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 250,
         "name": "イクノディクタス",
         "icon": "sp_155.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 251,
         "name": "ファインモーション",
         "icon": "sp_156.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 252,
         "name": "タマモクロス",
         "icon": "sp_157.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 253,
         "name": "ゼンノロブロイ",
         "icon": "sp_158.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 254,
         "name": "ミホノブルボン",
         "icon": "sp_159.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 255,
         "name": "ナカヤマフェスタ",
         "icon": "sp_160.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 256,
         "name": "シリウスシンボリ",
         "icon": "sp_161.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 257,
         "name": "ナカヤマフェスタ",
         "icon": "sp_162.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 258,
         "name": "シリウスシンボリ",
         "icon": "sp_163.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 259,
         "name": "カレンチャン",
         "icon": "sp_164.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 260,
         "name": "ナリタブライアン",
         "icon": "sp_165.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 261,
         "name": "ユキノビジン",
         "icon": "sp_166.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 262,
         "name": "カレンチャン",
         "icon": "sp_167.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 263,
         "name": "ダイタクヘリオス",
         "icon": "sp_168.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 264,
         "name": "ウオッカ",
         "icon": "sp_169.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 265,
         "name": "マヤノトップガン",
         "icon": "sp_170.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 266,
         "name": "ナリタタイシン",
         "icon": "sp_171.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 267,
         "name": "マーベラスサンデー",
         "icon": "sp_172.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 268,
         "name": "マンハッタンカフェ",
         "icon": "sp_173.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 269,
         "name": "イナリワン",
         "icon": "sp_174.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 270,
         "name": "イナリワン",
         "icon": "sp_175.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 271,
         "name": "サイレンススズカ",
         "icon": "sp_176.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 272,
         "name": "アドマイヤベガ",
         "icon": "sp_177.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 273,
         "name": "マチカネフクキタル",
         "icon": "sp_178.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 274,
         "name": "アドマイヤベガ",
         "icon": "sp_179.png",
         "type": "パワ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 275,
         "name": "メイショウドトウ",
         "icon": "sp_180.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 276,
         "name": "安心沢刺々美",
         "icon": "sp_181.png",
         "type": "友人",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 277,
         "name": "タマモクロス",
         "icon": "sp_182.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 278,
         "name": "安心沢刺々美",
         "icon": "sp_183.png",
         "type": "友人",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 279,
         "name": "トーセンジョーダン",
         "icon": "sp_184.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 280,
         "name": "ニシノフラワー",
         "icon": "sp_185.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 281,
         "name": "サクラバクシンオー",
         "icon": "sp_186.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 282,
         "name": "アグネスデジタル",
         "icon": "sp_187.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 283,
         "name": "アイネスフウジン",
         "icon": "sp_188.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 284,
         "name": "メジロブライト",
         "icon": "sp_189.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 285,
         "name": "スペシャルウィーク",
         "icon": "sp_190.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 286,
         "name": "サトノダイヤモンド",
         "icon": "sp_191.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 287,
         "name": "ナリタトップロード",
         "icon": "sp_192.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 288,
         "name": "メジロライアン",
         "icon": "sp_193.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 289,
         "name": "アドマイヤベガ",
         "icon": "sp_194.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 290,
         "name": "サクラバクシンオー",
         "icon": "sp_195.png",
         "type": "パワ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 291,
         "name": "メジロブライト",
         "icon": "sp_196.png",
         "type": "スタ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 292,
         "name": "ナリタトップロード",
         "icon": "sp_197.png",
         "type": "スピ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 293,
         "name": "マーベラスサンデー",
         "icon": "sp_198.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 294,
         "name": "カレンチャン",
         "icon": "sp_199.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 295,
         "name": "チーム＜シリウス＞",
         "icon": "sp_200.png",
         "type": "グル",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 296,
         "name": "シンボリルドルフ",
         "icon": "sp_201.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 297,
         "name": "シリウスシンボリ",
         "icon": "sp_202.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 298,
         "name": "エアシャカール",
         "icon": "sp_203.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 299,
         "name": "スマートファルコン",
         "icon": "sp_204.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 300,
         "name": "ダイワスカーレット",
         "icon": "sp_205.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 301,
         "name": "スイープトウショウ",
         "icon": "sp_206.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 302,
         "name": "バンブーメモリー",
         "icon": "sp_207.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 303,
         "name": "シーキングザパール",
         "icon": "sp_208.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 304,
         "name": "カワカミプリンセス",
         "icon": "sp_209.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 305,
         "name": "ミスターシービー",
         "icon": "sp_210.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 306,
         "name": "トウカイテイオー",
         "icon": "sp_211.png",
         "type": "スタ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 307,
         "name": "ミスターシービー",
         "icon": "sp_212.png",
         "type": "賢さ",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 308,
         "name": "ハルウララ",
         "icon": "sp_213.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 309,
         "name": "イクノディクタス",
         "icon": "sp_214.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 310,
         "name": "ライスシャワー",
         "icon": "sp_215.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 311,
         "name": "タイキシャトル",
         "icon": "sp_216.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 312,
         "name": "オグリキャップ",
         "icon": "sp_217.png",
         "type": "根性",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 313,
         "name": "エルコンドルパサー",
         "icon": "sp_218.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 314,
         "name": "マチカネタンホイザ",
         "icon": "sp_219.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 315,
         "name": "ゼンノロブロイ",
         "icon": "sp_220.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 316,
         "name": "エアグルーヴ",
         "icon": "sp_221.png",
         "type": "パワ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 317,
         "name": "ゴールドシチー",
         "icon": "sp_222.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 318,
         "name": "玉座に集いし者たち",
         "icon": "sp_223.png",
         "type": "グル",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 319,
         "name": "エルコンドルパサー",
         "icon": "sp_224.png",
         "type": "スピ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 320,
         "name": "ツルマルツヨシ",
         "icon": "sp_225.png",
         "type": "根性",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 321,
         "name": "スペシャルウィーク",
         "icon": "sp_226.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 322,
         "name": "マルゼンスキー",
         "icon": "sp_227.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 323,
         "name": "ナカヤマフェスタ",
         "icon": "sp_228.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 324,
         "name": "サクラチヨノオー",
         "icon": "sp_229.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 325,
         "name": "マンハッタンカフェ",
         "icon": "sp_230.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 326,
         "name": "セイウンスカイ",
         "icon": "sp_231.png",
         "type": "賢さ",
-        "rearity": "SR"
+        "rarity": "SR"
       },
       {
         "id": 327,
         "name": "ミホノブルボン",
         "icon": "sp_232.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 328,
         "name": "アグネスタキオン",
         "icon": "sp_233.png",
         "type": "スピ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 329,
         "name": "ライトハロー",
         "icon": "sp_234.png",
         "type": "友人",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 330,
         "name": "ライトハロー",
         "icon": "sp_235.png",
         "type": "友人",
-        "rearity": "R"
+        "rarity": "R"
       },
       {
         "id": 331,
         "name": "トウカイテイオー",
         "icon": "sp_236.png",
         "type": "賢さ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 332,
         "name": "ツインターボ",
         "icon": "sp_237.png",
         "type": "根性",
-        "rearity": "SSR"
+        "rarity": "SSR"
       },
       {
         "id": 333,
         "name": "ビワハヤヒデ",
         "icon": "sp_238.png",
         "type": "スタ",
-        "rearity": "SSR"
+        "rarity": "SSR"
       }
     ],
     "chara": [

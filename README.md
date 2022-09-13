@@ -61,7 +61,7 @@ interface Supporter {
   name: string // サポートカードのキャラクター名
   icon: string // アイコン画像名
   type: "スピ" | "スタ" | "パワ" | "根性" | "賢さ" | "友人" | "グル"
-  rearity: "R" | "SR" | "SSR"
+  rarity: "R" | "SR" | "SSR"
 }
 ```
 
