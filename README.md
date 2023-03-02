@@ -41,7 +41,7 @@ interface Event {
 }
 type EventOwner = {
   type: "scenario"
-  name: "共通" | "URA" | "アオハル" | "クライマックス" | "グランドライブ"
+  name: string // "共通" | "URA" | "アオハル" | "クライマックス" | "グランドライブ" | "グランドマスターズ" など
 } | {
   type: "chara" | "support" // 育成キャラ, サポートカード
   name: string
@@ -66,13 +66,7 @@ interface Supporter {
 ```
 
 ## How to update & publish
-### 手動
 
-```
-ruby src/update.rb
-ruby src/test.rb
-ruby src/release.rb
-```
+[GithubActions](https://github.com/Seo-4d696b75/uma-event-data/actions)の`auto-update`ワークフローで実行
 
-### 定期実行
-GithubActions で毎時0:00 に実行
+手動で起動、または毎時0:00に定期的に実行
