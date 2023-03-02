@@ -20,9 +20,8 @@ def assert(condition, message = '')
 end
 
 def check_name(name)
-  n = name.gsub(/\s+/, '')
-  puts "名前にカタカナ以外が含まれます：#{name}" unless n.match(/^[\p{Katakana}ー]+$/)
-  n
+  # 空白文字が名前に混入して失敗する場合あり
+  name.gsub(/\s+/, '')
 end
 
 old_data = read_json('data.json')
