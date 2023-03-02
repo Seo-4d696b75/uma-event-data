@@ -1,8 +1,6 @@
 name: auto-update
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
   schedule:
     - cron: '0 15 * * *' # JST(UTC+0900) で毎時0:00に実行
 jobs:
@@ -22,7 +20,7 @@ jobs:
         id: diff
         run: |
           git add -N . # 新規ファイルを含める
-          echo "::set-output name=count::$(git diff --name-only | wc -l)"
+          echo "count=$(git diff --name-only | wc -l)" >> $GITHUB_OUTPUT
       - name: run test # 以降は差分がある場合のみ実行
         if: steps.diff.outputs.count > 0 
         run: |
