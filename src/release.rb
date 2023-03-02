@@ -12,14 +12,20 @@ def read_json(path)
   JSON.parse(str)
 end
 
-def assert(condition, message='')
+def assert(condition, message = '')
   return if condition
 
   puts message
   exit(1)
 end
 
-old_owner = read_json('data.json')['owner']
+def check_name(name)
+  # 空白文字が名前に混入して失敗する場合あり
+  name.gsub(/\s+/, '')
+end
+
+old_data = read_json('data.json')
+old_owner = old_data['owner']
 ids = Set.new
 max_id = (old_owner['chara'] + old_owner['support']).map do |e|
   assert !ids.member?(e['id']), "id duplicated #{JSON.dump(e)}"
@@ -27,9 +33,18 @@ max_id = (old_owner['chara'] + old_owner['support']).map do |e|
   e['id']
 end.max
 
+scenario = ['共通']
+old_data['event'].map { |e| e['owner'] }.select { |o| o['type'] == 'scenario' }.each do |o|
+  name = o['name']
+  unless scenario.include?(name)
+    scenario << name
+    puts "existing scenario #{name}"
+  end
+end
+
 owner = read_json('src/icon.json')
 owner['chara'].map! do |c|
-  name = c['n']
+  name = check_name(c['n'])
   i = c['i']
   list = [i]
   second = "#{File.basename(i, '.png')}_e.png"
@@ -50,10 +65,10 @@ owner['chara'].map! do |c|
     'icon' => list
   }
 end
-assert old_owner['chara'].length.zero?, "chara not found #{JSON.dump(old_owner['chara'])}"
+assert old_owner['chara'].empty?, "chara not found #{JSON.dump(old_owner['chara'])}"
 
 owner['support'].map! do |s|
-  name = s['n']
+  name = check_name(s['n'])
   type = s['l'][0..1]
   rarity = s['l'].match(/S{0,2}R/)[0]
   idx = old_owner['support'].index do |e|
@@ -75,25 +90,30 @@ owner['support'].map! do |s|
     'rarity' => rarity
   }
 end
-assert old_owner['support'].length.zero?, "support not found #{JSON.dump(old_owner['support'])}"
+assert old_owner['support'].empty?, "support not found #{JSON.dump(old_owner['support'])}"
 
-scenario = ['共通', 'URA', 'アオハル', 'クライマックス', 'グランドライブ']
 event = read_json('src/event.json').map do |e|
   name = e['n']
   cls = e['c']
   owner_id = nil
   owner_type = nil
-  if scenario.include?(name)
+  if cls == 'm' || name == '共通'
     # イベント所有者なし
-    puts "scenario #{name}:#{e['e']}"
+    unless scenario.include?(name)
+      puts "new scenario detected #{name}"
+      scenario << name
+    end
+    puts "scenario #{name} (event name:#{e['e']})"
     owner_type = 'scenario'
   elsif cls == 'c'
     # 育成キャラ
+    name = check_name(name)
     o = owner['chara'].find { |c| c['name'] == name }
     owner_type = 'chara'
     owner_id = o['id']
   elsif cls == 's'
     # サポートカード
+    name = check_name(name)
     type = e['l'][0..1]
     rarity = e['l'].match(/S{0,2}R/)[0]
     o = owner['support'].find do |s|
@@ -102,7 +122,7 @@ event = read_json('src/event.json').map do |e|
     owner_type = 'support'
     owner_id = o['id']
   else
-    assert false, "no owner found #{JSON.dump(e)}"
+    assert false, "invalid event type 'e' #{JSON.dump(e)}"
   end
   o = {
     'type' => owner_type,
