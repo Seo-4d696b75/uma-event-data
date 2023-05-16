@@ -13,7 +13,7 @@ jobs:
           ref: 'main'
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
+          ruby-version: '2.7'
       - name: update
         run: ruby src/update.rb
       - name: check diff

@@ -109,6 +109,7 @@ event = read_json('src/event.json').map do |e|
     # 育成キャラ
     name = check_name(name)
     o = owner['chara'].find { |c| c['name'] == name }
+    assert o, "育成キャラが見つかりません：#{name}"
     owner_type = 'chara'
     owner_id = o['id']
   elsif cls == 's'
@@ -119,6 +120,7 @@ event = read_json('src/event.json').map do |e|
     o = owner['support'].find do |s|
       s['name'] == name && s['type'] == type && s['rarity'] == rarity
     end
+    assert o, "サポーターが見つかりません：#{name} #{type} #{rarity}"
     owner_type = 'support'
     owner_id = o['id']
   else
