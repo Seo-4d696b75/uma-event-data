@@ -50,7 +50,8 @@ owner['chara'].map! do |c|
   second = "#{File.basename(i, '.png')}_e.png"
   list << second if File.exist?("icon/#{second}")
 
-  idx = old_owner['chara'].index { |e| e['name'] == name }
+  # nameの変更を考慮
+  idx = old_owner['chara'].index { |e| e['name'] == name || e['icon'] == list }
   id = max_id + 1
   if idx
     id = old_owner['chara'].delete_at(idx)['id']
