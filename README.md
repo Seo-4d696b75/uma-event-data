@@ -41,7 +41,7 @@ interface Event {
 }
 type EventOwner = {
   type: "scenario"
-  name: string // "共通" | "URA" | "アオハル" | "クライマックス" | "グランドライブ" | "グランドマスターズ" など
+  name: string // "共通" | "URA" | "アオハル" | "クライマックス" | "グランドライブ" | "グランドマスターズ" | "プロジェクトL’Arc" など
 } | {
   type: "chara" | "support" // 育成キャラ, サポートカード
   name: string
