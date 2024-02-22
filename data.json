@@ -91991,6 +91991,48 @@
         "icon": "sp_353.png",
         "type": "賢さ",
         "rarity": "R"
+      },
+      {
+        "id": 513,
+        "name": "ドゥラメンテ",
+        "icon": "sp_354.png",
+        "type": "スタ",
+        "rarity": "SSR"
+      },
+      {
+        "id": 514,
+        "name": "都留岐涼花",
+        "icon": "sp_355.png",
+        "type": "友人",
+        "rarity": "SSR"
+      },
+      {
+        "id": 515,
+        "name": "トーセンジョーダン",
+        "icon": "sp_356.png",
+        "type": "スピ",
+        "rarity": "SR"
+      },
+      {
+        "id": 516,
+        "name": "ヤエノムテキ",
+        "icon": "sp_357.png",
+        "type": "スタ",
+        "rarity": "SR"
+      },
+      {
+        "id": 517,
+        "name": "オルフェーヴル",
+        "icon": "sp_358.png",
+        "type": "根性",
+        "rarity": "SSR"
+      },
+      {
+        "id": 518,
+        "name": "ジェンティルドンナ",
+        "icon": "sp_359.png",
+        "type": "スピ",
+        "rarity": "SSR"
       }
     ],
     "chara": [
@@ -93106,6 +93148,20 @@
         "name": "ビコーペガサス",
         "icon": [
           "i_157.png"
+        ]
+      },
+      {
+        "id": 511,
+        "name": "イクノディクタス",
+        "icon": [
+          "i_158.png"
+        ]
+      },
+      {
+        "id": 512,
+        "name": "ドゥラメンテ",
+        "icon": [
+          "i_159.png"
         ]
       }
     ]
