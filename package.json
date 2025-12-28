@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "download": "tsx src/download.ts",
-    "test": "tsx src/test.ts",
     "release": "tsx src/release.ts",
     "build": "tsc"
   },
