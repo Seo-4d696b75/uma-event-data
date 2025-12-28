@@ -50,6 +50,65 @@ export const IconDataSchema = z.object({
   chara: z.array(CharaImageDataSchema),
 });
 
+// リリース用のスキーマ（変換後のデータ形式）
+
+// リリース用の選択肢スキーマ
+export const ReleaseChoiceSchema = z.object({
+  name: z.string(), // 選択肢名
+  message: z.string(), // メッセージ
+});
+
+// リリース用のイベントオーナースキーマ（union型）
+export const ReleaseEventOwnerSchema = z.union([
+  // scenarioタイプ：idなし
+  z.object({
+    type: z.literal('scenario'),
+    name: z.string(), // "共通" | "URA" | "アオハル" | "クライマックス" | "グランドライブ" | "グランドマスターズ" | "プロジェクトL'Arc" など
+  }),
+  // charaまたはsupportタイプ：id必須
+  z.object({
+    type: z.union([z.literal('chara'), z.literal('support')]),
+    name: z.string(),
+    id: z.number(), // Character,Supportに同idが存在する
+  }),
+]);
+
+// リリース用のイベントスキーマ
+export const ReleaseEventSchema = z.object({
+  title: z.string(), // タイトル
+  title_kana: z.string(), // カナ
+  owner: ReleaseEventOwnerSchema, // オーナー
+  choices: z.array(ReleaseChoiceSchema), // 選択肢の配列
+});
+
+// リリース用のキャラクターオーナースキーマ
+export const ReleaseCharaOwnerSchema = z.object({
+  id: z.number(), // ID
+  name: z.string(), // 名前
+  icon: z.array(z.string()), // アイコン（文字列または配列）
+});
+
+// リリース用のサポートオーナースキーマ
+export const ReleaseSupportOwnerSchema = z.object({
+  id: z.number(), // ID
+  name: z.string(), // サポートカードのキャラクター名
+  icon: z.string(), // アイコン画像名
+  type: z.enum(['スピ', 'スタ', 'パワ', '根性', '賢さ', '友人', 'グル']), // タイプ
+  rarity: z.enum(['R', 'SR', 'SSR']), // レアリティ
+});
+
+// リリース用のオーナースキーマ
+export const ReleaseOwnerSchema = z.object({
+  support: z.array(ReleaseSupportOwnerSchema), // サポートの配列
+  chara: z.array(ReleaseCharaOwnerSchema), // キャラクターの配列
+});
+
+// リリース用のデータスキーマ
+export const ReleaseDataSchema = z.object({
+  event: z.array(ReleaseEventSchema), // イベントの配列
+  owner: ReleaseOwnerSchema, // オーナー
+});
+
 // 型推論で型を取得
 export type Choice = z.infer<typeof ChoiceSchema>;
 export type Event = z.infer<typeof EventSchema>;
@@ -57,3 +116,11 @@ export type CharaImageData = z.infer<typeof CharaImageDataSchema>;
 export type SupportImageData = z.infer<typeof SupportImageDataSchema>;
 export type IconData = z.infer<typeof IconDataSchema>;
 
+// リリース用の型
+export type ReleaseChoice = z.infer<typeof ReleaseChoiceSchema>;
+export type ReleaseEventOwner = z.infer<typeof ReleaseEventOwnerSchema>;
+export type ReleaseEvent = z.infer<typeof ReleaseEventSchema>;
+export type ReleaseCharaOwner = z.infer<typeof ReleaseCharaOwnerSchema>;
+export type ReleaseSupportOwner = z.infer<typeof ReleaseSupportOwnerSchema>;
+export type ReleaseOwner = z.infer<typeof ReleaseOwnerSchema>;
+export type ReleaseData = z.infer<typeof ReleaseDataSchema>;
