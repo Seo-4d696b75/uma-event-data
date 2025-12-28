@@ -1,0 +1,29 @@
+{
+  "name": "uma-event-data",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ウマ娘 プリティーダービーの育成中に発生する選択肢ありイベントのデータを収集・管理するリポジトリ",
+  "type": "module",
+  "scripts": {
+    "download": "tsx src/download.ts",
+    "test": "tsx src/test.ts",
+    "release": "tsx src/release.ts",
+    "build": "tsc"
+  },
+  "keywords": [
+    "uma-musume",
+    "event-data"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.6.0"
+  }
+}
+
