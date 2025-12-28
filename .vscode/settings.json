@@ -1,9 +1,0 @@
-{
-    "ruby": {
-        "lint": {
-            "rubocop": true
-        },
-        "format": "rubocop",
-        "editor.formatOnSaveTimeout": 5000
-    }
-}
