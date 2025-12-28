@@ -2,7 +2,7 @@ name: auto-update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * *' # JST(UTC+0900) で毎時0:00に実行
+    - cron: '0 15 * * 4' # JST(UTC+0900) で金曜日0:00に実行
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -11,23 +11,21 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: 'main'
-      - uses: ruby/setup-ruby@v1
-      - name: update
-        run: ruby src/update.rb
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: '.tool-versions'
+      - name: install dependencies
+        run: npm ci
+      - name: download data
+        run: npm run download
       - name: check diff
         id: diff
         run: |
           git add -N . # 新規ファイルを含める
           echo "count=$(git diff --name-only | wc -l)" >> $GITHUB_OUTPUT
-      - name: run test # 以降は差分がある場合のみ実行
-        if: steps.diff.outputs.count > 0 
-        run: |
-          echo "::add-matcher::.github/problem-matcher.json"
-          gem install minitest
-          ruby src/test.rb
       - name: release # 公開するデータフォーマットに変換
         if: steps.diff.outputs.count > 0
-        run: ruby src/release.rb
+        run: npm run release
       - name: commit and push
         if: steps.diff.outputs.count > 0
         run: |
