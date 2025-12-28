@@ -145,10 +145,19 @@ function main() {
       }
     } else if (cls === 's') {
       // サポートカード
-      const type = e.l?.slice(0, 2) || '';
+      let type = e.l?.slice(0, 2) || '';
       const rarityMatch = e.l?.match(/S{0,2}R/);
       assert(rarityMatch !== null, `Invalid rarity: ${e.l}`);
-      const rarity = rarityMatch![0];
+      let rarity = rarityMatch![0];
+      
+      // FIXME https://github.com/Seo-4d696b75/uma-event-data/issues/4
+      // 暫定対応: 一部のイベントデータでtypeが逆になっている問題を修正
+      if (rarity === 'R' && name === 'デュランダル' && (title === '聖剣の輝き' || title === '聖剣の一撃')) {
+        type = '賢さ';
+      } else if (rarity === 'R' && name === 'カルストンライトオ' && (title === '『最速』はすばらしい' || title === '『真っ直ぐ』はすばらしい')) {
+        type = 'スピ';
+      }
+      
       const o = owner.support.find((s) => s.name === name && s.type === type && s.rarity === rarity);
       assert(o !== undefined, `サポーターが見つかりません：${name} ${type} ${rarity}`);
       return {
